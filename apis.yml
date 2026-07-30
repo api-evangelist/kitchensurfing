@@ -1,20 +1,58 @@
 aid: kitchensurfing
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kitchensurfing.png
 name: Kitchensurfing
-description: Kitchensurfing is a company surfaced as a portfolio company of union-square-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Kitchensurfing was a New York City marketplace that booked professional chefs to shop for,
+  cook, and serve meals in customers'' own kitchens, founded in 2012 and backed by roughly $20M from Union
+  Square Ventures, Spark Capital, and Tiger Global. It began as an advance-booking platform for private
+  dinner parties and pivoted in 2015 to a flat-rate on-demand model in which a chef arrived and cooked
+  dinner within a fixed window. Neither model produced sustainable demand against better-capitalized meal-kit
+  and delivery competitors, and the company discontinued service and shut down on April 15, 2016. It never
+  published a public developer API, SDK, or developer portal. Its GitHub organization survives with eleven
+  public repositories - open-source Ruby/Rails forks and internal hackathon projects, last active in 2016
+  - but contains no client library or API definition. The kitchensurfing.com domain was subsequently re-registered
+  by an unrelated cooking-products affiliate publisher and no longer represents this company.'
 url: https://raw.githubusercontent.com/api-evangelist/kitchensurfing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - union-square-ventures
+- spark-capital
+- tiger-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api
+x-status: defunct
+x-defunct-date: '2016-04-15'
+x-founded: '2012'
+x-headquarters: New York, NY, United States
+x-domain-status: reregistered-unrelated
+x-enrichment-note: Enriched 2026-07-19. Company confirmed defunct since 2016-04-15; no API, SDK, developer
+  portal, or event surface was ever published. Live kitchensurfing.com is an unrelated affiliate content
+  site, so no artifacts (packages, well-known, mcp, llms, openapi, security) were generated - absence is
+  the correct, verified result. Do not re-run the artifact pipeline on this slug.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Defunct
+- Food and Beverage
+- Marketplace
+- On Demand
+- Hospitality
+- Local Services
+- Consumer
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +61,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kitchensurfing.com
+  name: kitchensurfing.com - domain re-registered by an unrelated cooking-products publisher, NOT the original
+    company
+  url: https://www.kitchensurfing.com/
+- type: Archive
+  name: Kitchensurfing original site, Internet Archive snapshot (2016-04-01)
+  url: http://web.archive.org/web/20160401035206/https://www.kitchensurfing.com/
+- type: GitHubOrganization
+  name: Kitchensurfing on GitHub - 11 public repos, last active 2016, forks and internal projects, no SDK
+    or API definition
+  url: https://github.com/kitchensurfing
+- type: News
+  name: 'Recode: On-demand chef service Kitchensurfing shuts down (2016-04-15)'
+  url: https://www.recode.net/2016/4/15/11586178/on-demand-chef-service-kitchensurfing-shuts-down
+- type: News
+  name: 'Fast Company: After raising $20M, Kitchensurfing closes'
+  url: https://www.fastcompany.com/4003566/after-raising-20m-kitchensurfing-closes-2
+- type: Profile
+  name: Kitchensurfing company profile on CB Insights
+  url: https://www.cbinsights.com/company/kitchensurfing
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
