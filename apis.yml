@@ -40,7 +40,7 @@ x-enrichment-note: Enriched 2026-07-19. Company confirmed defunct since 2016-04-
   portal, or event surface was ever published. Live kitchensurfing.com is an unrelated affiliate content
   site, so no artifacts (packages, well-known, mcp, llms, openapi, security) were generated - absence is
   the correct, verified result. Do not re-run the artifact pipeline on this slug.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
