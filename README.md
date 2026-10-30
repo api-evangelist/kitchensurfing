@@ -64,31 +64,35 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: defunct — shut down April 15, 2016. No API surface. Do not re-run the artifact pipeline.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Kitchensurfing was a New York City marketplace that booked professional chefs to shop for, cook, and serve
-meals in customers' own kitchens. Founded in 2012, it raised roughly $20M from Union Square Ventures, Spark
-Capital, and Tiger Global. It began as an advance-booking platform for private dinner parties and pivoted in
-2015 to a flat-rate on-demand model. Neither model produced sustainable demand against better-capitalized
-meal-kit and delivery competitors, and the company discontinued service on April 15, 2016.
+Kitchensurfing was a New York City marketplace that booked professional chefs to shop for, cook, and serve meals in customers' own kitchens, founded in 2012 and backed by roughly $20M from Union Square Ventures, Spark Capital, and Tiger Global. It began as an advance-booking platform for private dinner parties and pivoted in 2015 to a flat-rate on-demand model in which a chef arrived and cooked dinner within a fixed window. Neither model produced sustainable demand against better-capitalized meal-kit and delivery competitors, and the company discontinued service and shut down on April 15, 2016. It never published a public developer API, SDK, or developer portal. Its GitHub organization survives with eleven public repositories - open-source Ruby/Rails forks and internal hackathon projects, last active in 2016 - but contains no client library or API definition. The kitchensurfing.com domain was subsequently re-registered by an unrelated cooking-products affiliate publisher and no longer represents this company.
 
-Backed by: union-square-ventures, spark-capital, tiger-global
+**Areas:** Company · Defunct · Food and Beverage · Marketplace · On-Demand · Hospitality · Local Services · Consumer
 
-## Enrichment findings (2026-07-19)
+## Kitchensurfing on APIs.io (historical record)
 
-- **No public API was ever published** — no developer portal, documentation, API reference, SDK, CLI,
-  webhook, or event surface exists in the archive or anywhere else.
-- **No API subdomains resolve** — `api.`, `developer.`, and `docs.kitchensurfing.com` all return no DNS records.
-- **The live domain is not this company.** `https://kitchensurfing.com` returns 200 but redirects to
-  `https://www.kitchensurfing.com/`, an unrelated WordPress cooking-products affiliate/review site
-  ("KitchenSurfing.com is a worldwide resource built by cooks, for cooks"), last updated 2022. The domain
-  was re-registered after the shutdown. It is recorded in `apis.yml` with an explicit disclaimer.
-- **The GitHub organization is genuine and survives** — [github.com/kitchensurfing](https://github.com/kitchensurfing),
-  created 2012-01-12, 11 public repositories, all forks of open-source Ruby/Rails gems
-  (`gon`, `resque_mailer`, `sunspot_mongo`, `heroku-buildpack-ruby`, `filepicker-rails`) plus internal
-  hackathon projects (`food_tinder`, `food_tinder_RoR`). Last push 2016-03-09. **No client library and no
-  API definition.**
-- **Original site preserved** at the [Internet Archive (2016-04-01 snapshot)](http://web.archive.org/web/20160401035206/https://www.kitchensurfing.com/).
+Everything profiled for Kitchensurfing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kitchensurfing/](https://apis.io/providers/kitchensurfing/)** — or go straight to one of the APIs or properties below.
 
-No artifacts (`packages/`, `well-known/`, `mcp/`, `llms/`, `openapi/`, `security/`, `conventions/`, `skills/`)
-were generated. Their absence is the verified, correct result — nothing was fabricated to fill them.
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kitchensurfing.com/)
+- [GitHub](https://github.com/kitchensurfing)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kitchensurfing: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kitchensurfing/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
